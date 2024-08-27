@@ -1,0 +1,8 @@
+.navMenuItem label{
+    background-color: black;
+    font-weight: bold;
+}
+.navMenuItem{
+    background-color: blue;
+    font-size: medium;
+}

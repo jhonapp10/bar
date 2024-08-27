@@ -1,0 +1,27 @@
+<div class="card" >
+  
+    <!--<img class="card-img-top" [src]="menu.imageURL" alt="Card image cap">-->
+    <div class="card-head">
+      <img class="imagenes" [src]="menuDetail.imageUrl" alt="{{ menuDetail.name }} image" height="150" width="300">  
+      <h5 class="card-title">{{ menuDetail.name }}</h5>      
+    </div>
+    <mat-divider></mat-divider>
+    <div class="card-body">
+      
+      <p class="card-text">{{ menuDetail.details }}</p>
+      
+      <div *ngFor="let ing of menuDetail.ingredients">
+        <ul class="ingredientes">
+          <li>
+            <span>{{ing}}</span>
+          </li>
+        </ul>
+        
+      </div>
+      <span>Price: {{ menuDetail.price }}</span>
+    
+      <!-- Puedes agregar más detalles aquí, como la categoría, la disponibilidad, etc. -->
+      <button id="btnAddCart" class="btn btn-primary" (click)="onclickAddCart(menuDetail)">Añadir a Carrito</button>
+    </div>
+  
+  </div>

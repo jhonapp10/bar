@@ -1,0 +1,63 @@
+.listmenu .list-group-item{
+    background-color: blue; 
+    color: white;
+    margin: 20px;
+    width: auto;
+}
+
+.card{
+   
+    color: #111111;
+    margin: 5px;
+    width: auto;
+    height: 300px;
+    /*background-color: blueviolet;*/
+}
+.card-footer button{
+
+    background-color: rgb(72, 16, 124);
+
+    color: white;
+
+    float: right;
+    border-radius: 10px;
+}
+#butonreview{
+    
+    bottom: 5px;
+        height: 40px;
+        padding: 13px 0 4px;
+        position: fixed;
+        width: 100%;
+        z-index: 5000;
+        
+}
+
+#butonreview button{
+    background-color: rgb(72, 16, 124);
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+.imagenes{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 35px;
+
+    
+}
+.card-footer small{
+    float: left;
+}
+.form-check{
+    float: right;
+}
+
+footer{
+    margin-top: 2%;
+}

@@ -1,0 +1,60 @@
+<!--<app-search></app-search>-->
+<div *ngIf="canlistmenus()">
+<div  class="col-6 " style="float: left" *ngFor="let menu of menus"> 
+  <div id="menus" class="card">
+    <img class="imagenes" [src]="menu.imageUrl" alt="{{ menu.name }} image" height="150" width="200">  
+   <div class="card-body"  (click)="onClickMenu(menu)">
+    
+    
+      <h5 class="card-title">{{menu.name}}</h5>
+        <!--<mat-divider></mat-divider>
+        <div class="card-text" > 
+        <label>{{menu.category}}</label>        
+        
+      </div>-->
+      <!--<p class="mb-1">{{menu.details}}</p>-->
+    
+  </div> 
+    <div class="card-footer" style="float: right;">
+      <!--<button onclick="onMenuSelectionChange(menu)">ADD +</button>-->
+
+      <div class="form-check form-switch">
+        <button (click)="onclickMenuSelection(menu)">
+
+          <mat-icon>add_shopping_cart</mat-icon>
+          </button>
+        <!--<mat-slide-toggle ngModel name="selected" [checked]="isSelected(menu)" (change)="toggleMenuSelection(menu)">Lo quiero!</mat-slide-toggle>-->
+        <!--<label class="form-check-label" for="flexSwitchCheckDefault"
+          >Selecionar</label>
+          <input [ngModel]="selected" onchange="onMenuSelectionChange(menu)"
+          mdbCheckbox
+          class="form-check-input"
+          type="checkbox"
+          id="flexSwitchCheckDefault"
+        />-->
+      </div>
+      <small style="font-weight: bold; font-size: 25px;">{{menu.price}}<mat-icon>euro</mat-icon></small>
+      <button (click) ="deleteitem(menu._id)"> <mat-icon>delete</mat-icon></button>
+      
+      <!--<input type="checkbox" (change)="onMenuSelectionChange(menu)" value="menu.selected" id="menus">-->
+    </div>
+    
+  
+</div>
+
+
+
+
+<!--LLAMADA COMPONENTE CARD DE MENU-->
+<!--<div class="menu-list">
+  <app-menu-card *ngFor="let menuItem of menuItems" [menu]="menuItem"></app-menu-card>
+</div>-->
+</div>
+<mat-divider></mat-divider>
+</div>
+<footer>
+  <div id="butonreview" class="row">
+  <button (click)="review()"> <mat-icon>shopping_cart</mat-icon> Ver Carrito </button>
+  
+  </div>
+  </footer>

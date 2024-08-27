@@ -1,0 +1,32 @@
+<div class="formAdd">
+    <h2>Nuevo Menú</h2>
+    <form [formGroup]="Form" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" class="form-control" id="name" formControlName="name">
+      </div>
+      <div class="form-group">
+        <label for="price">Precio:</label>
+        <input type="number" class="form-control" id="price" formControlName="price">
+      </div>
+      <div class="form-group">
+        <label for="category">Categoría:</label>
+        <select class="form-control" id="category" formControlName="category">
+          <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="description">Descripción:</label>
+        <textarea class="form-control" id="description" formControlName="description"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="ingredients">Ingredientes:</label>
+        <input type="text" class="form-control" id="ingredients" formControlName="ingredients">
+      </div>
+      <div class="form-group">
+        <label for="imageUrl">URL de Imagen:</label>
+        <input type="text" class="form-control" id="imageUrl" formControlName="imageUrl">
+      </div>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+  </div>

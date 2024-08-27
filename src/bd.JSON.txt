@@ -1,0 +1,115 @@
+
+ [
+    {
+      "id_menu": 1,
+      "name": "Paella de mariscos",
+      "details": "Un clásico español que combina arroz con una variedad de mariscos como camarones, mejillones y calamares.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Arroz", "Camarones", "Mejillones", "Calamares", "Especias"],
+      "imageUrl": "bar_app/bar/src/favicon.ico",
+      "selected": false
+    },
+    {
+      "id_menu": 2,
+      "name": "Filete de salmón a la parrilla",
+      "details": "Salmón fresco cocinado a la parrilla y acompañado de una salsa de limón y hierbas.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Salmón", "Limón", "Hierbas", "Sal", "Pimienta"],
+      "imageUrl": "\\Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 3,
+      "name": "Pasta Alfredo con pollo",
+      "details": "Pasta fetuccini servida con una cremosa salsa Alfredo y trozos de pollo tierno.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Pasta fetuccini", "Salsa Alfredo", "Pollo", "Queso Parmesano", "Mantequilla"],
+      "imageUrl": "\\Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 4,
+      "name": "Hamburguesa gourmet",
+      "details": "Una jugosa hamburguesa de carne de res o pollo con ingredientes gourmet como queso cheddar, tocino crujiente y aguacate.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Carne de res o pollo", "Queso cheddar", "Tocino", "Aguacate", "Lechuga", "Tomate", "Pan de hamburguesa"],
+      "imageUrl": "\\Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 5,
+      "name": "Tacos de carnitas",
+      "details": "Tacos mexicanos rellenos de cerdo desmenuzado cocido lentamente y acompañados de cebolla, cilantro y salsa.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Cerdo", "Tortillas de maíz", "Cebolla", "Cilantro", "Salsa"],
+      "imageUrl": "\\Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 6,
+      "name": "Ensalada César con pollo a la parrilla",
+      "details": "Una fresca ensalada César con crujientes trozos de pollo a la parrilla, aderezada con una deliciosa salsa César.",
+      "category": "Entrada",
+      "price": 10,
+      "ingredients": ["Lechuga romana", "Pollo", "Pan tostado", "Queso Parmesano", "Salsa César"],
+      "imageUrl": "\\Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 7,
+      "name": "Curry de pollo",
+      "details": "Pollo tierno cocinado en una sabrosa salsa de curry con una mezcla de especias aromáticas, servido con arroz basmati.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Pollo", "Leche de coco", "Curry en polvo", "Cúrcuma", "Comino", "Arroz basmati"],
+      "imageUrl": "\\Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 8,
+      "name": "Sushi variado",
+      "details": "Una selección de sushi fresco que incluye rollos de salmón, atún, aguacate y pepino, acompañados de salsa de soja y wasabi.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Salmón", "Atún", "Aguacate", "Pepino", "Arroz de sushi", "Algas nori"],
+      "imageUrl": "\\Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 9,
+      "name": "Lasaña de carne",
+      "details": "Capas de pasta intercaladas con carne molida sazonada, salsa de tomate y queso mozzarella gratinado.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Carne molida", "Pasta para lasaña", "Salsa de tomate", "Queso mozzarella", "Especias"],
+      "imageUrl": "/Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 10,
+      "name": "Pad Thai",
+      "details": "Fideos de arroz salteados con camarones, tofu, brotes de soja, cacahuetes y salsa de tamarindo, una especialidad tailandesa.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Fideos de arroz", "Camarones", "Tofu", "Brotes de soja", "Cacahuetes", "Salsa de tamarindo"],
+      "imageUrl": "\\Untitled Project.jpg",
+      "selected": false
+    },
+    {
+      "id_menu": 11,
+      "name": "Costillas a la barbacoa",
+      "details": "Costillas de cerdo cocidas lentamente y cubiertas con una salsa barbacoa casera, tiernas y llenas de sabor.",
+      "category": "Plato principal",
+      "price": 10,
+      "ingredients": ["Costillas de cerdo", "Salsa barbacoa", "Especias", "Azúcar", "Vinagre"],
+      "imageUrl": "URL_IMAGEN",
+      "selected": false
+    }
+   
+  ]
+

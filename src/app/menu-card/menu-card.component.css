@@ -1,0 +1,26 @@
+.card-head{
+
+    
+    color: rgb(12, 12, 12);
+}
+
+.cardItem{
+    border-radius: 30px !important;
+}
+.card-title{
+    margin-left: 5%;
+    text-align: center;
+}
+.imagenes{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 20px;
+    
+}
+
+#btnAddCart{
+    float: right;
+}

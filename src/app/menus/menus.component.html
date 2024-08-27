@@ -1,0 +1,28 @@
+
+<mat-tab-group class="navMenu" (selectedTabChange)="onTabChanged($event)">
+    <mat-tab class="navMenuItem" label="Home">   
+      <ng-template mat-tab-label>
+        <mat-icon class="example-tab-icon">home</mat-icon>
+        Inicio
+      </ng-template>
+    </mat-tab>
+    &nbsp;
+    <mat-tab class="navMenuItem" label="Menus">
+      <ng-template mat-tab-label>
+        <mat-icon class="example-tab-icon">restaurant</mat-icon>
+        Menus
+      </ng-template>   
+    </mat-tab>
+    &nbsp;    
+    <mat-tab class="navMenuItem" label="Entrantes">      
+    </mat-tab>
+    <mat-tab class="navMenuItem" label="Refrescos">      
+    </mat-tab>
+    <mat-tab class="navMenuItem">
+      <ng-template mat-tab-label>
+<mat-icon>add_circle</mat-icon>
+      </ng-template>
+    </mat-tab> 
+  
+    &nbsp;
+  </mat-tab-group>

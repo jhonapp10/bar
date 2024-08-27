@@ -1,0 +1,10 @@
+.form-group{
+  margin: 5%;
+}
+.formAdd h2{
+  text-align: center;
+}
+.formAdd button{
+  margin-right: 5%;
+  float: right;
+}
